@@ -27,8 +27,8 @@ def grid_traveler_memo(m, n, memo={}):
     return memo[key]
 
 
-print(grid_traveler(1, 1))  # 1
-print(grid_traveler(2, 3))  # 3
-print(grid_traveler(3, 2))  # 3
-print(grid_traveler(3, 3))  # 6
+print(grid_traveler_memo(1, 1))  # 1
+print(grid_traveler_memo(2, 3))  # 3
+print(grid_traveler_memo(3, 2))  # 3
+print(grid_traveler_memo(3, 3))  # 6
 print(grid_traveler_memo(18, 18))  # 2333606220
